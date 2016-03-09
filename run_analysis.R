@@ -2,7 +2,7 @@
 library(dplyr)
 library(stringr)
 
-folderpath <- 'change to your local directory'
+folderpath <- 'c:\Samsung data'
 setwd(folderpath)
 
 activity_labels <- read.delim('activity_labels.txt', header=FALSE, sep="")
