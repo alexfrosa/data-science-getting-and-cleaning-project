@@ -87,4 +87,4 @@ for (i in 2:datacolumns) {
   tidydata[6,i] <- as.double ( mean(laying[,i]) )
 }
 
-write.csv(tidydata, file = 'tidydata.csv')
+write.table(tidydata, file = 'tidydata.csv', row.names=FALSE)
